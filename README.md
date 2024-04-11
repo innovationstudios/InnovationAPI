@@ -49,11 +49,11 @@ Envia uma mídia para o WhatsApp e salva no servidor local.
 ```bash
 curl -X POST -F "from=SEU_NUMERO" -F "caption=LEGENDA_DA_IMAGEM" -F "image=@caminho/para/imagem.jpg" http://localhost:3000/send-media
 
-## Contribuição
+### Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue para relatar problemas ou propor melhorias.
 Segue meu pix: victorgd199@hotmail.com Qualquer valor é bem vindo!
 
-## Licença
+### Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
