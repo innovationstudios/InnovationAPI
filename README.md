@@ -1,43 +1,59 @@
-WhatsApp Media Sender
-Este é um projeto simples para enviar mídias para o WhatsApp usando o Whaticket e armazenar as mídias no servidor local.
+# 🚀 InnovationAPI - Whatsapp Business Oficial
 
-Instalação
-Clone este repositório:
+Este é um projeto API utilizando a lib oficial do WhatsApp Business V18.0, para envio de midia, template e mensagem definidas manualmente!
 
-bash
-Copy code
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Instale as dependências do Node.js:
+## Instalação
 
-bash
-Copy code
-npm install
-Configure as variáveis de ambiente:
+1. **Clone este repositório:**
 
-Renomeie o arquivo .env.example para .env e preencha as variáveis de ambiente necessárias.
+    ```bash
+    git clone https://github.com/innovationstudios/InnovationAPI.git/
+    ```
 
-Uso
-Inicie o servidor:
+2. **Instale as dependências do Node.js:**
 
-bash
-Copy code
-npm start
-Envie uma solicitação POST para o endpoint /send-media com a mídia a ser enviada.
+    ```bash
+    npm install
+    ```
 
-Endpoints
-POST /send-media
+3. **Configure as variáveis de ambiente:**
+
+    Renomeie o arquivo `.env.example` para `.env` e preencha as variáveis de ambiente necessárias.
+
+## Uso
+
+1. **Inicie o servidor:**
+
+    ```bash
+    npm start
+
+    npx nodemon send.js
+    ```
+
+2. **Envie uma solicitação POST para o endpoint `/send-media` com a mídia a ser enviada.**
+
+## Endpoints
+
+### POST /send-media
+
 Envia uma mídia para o WhatsApp e salva no servidor local.
 
-Parâmetros
-from: (String) Número do remetente.
-caption: (String) Legenda da mídia.
-image: (File) Arquivo de imagem a ser enviado.
-Exemplo de Requisição
-bash
-Copy code
-curl -X POST -F "from=SEU_NUMERO" -F "caption=LEGENDA_DA_IMAGEM" -F "image=@caminho/para/imagem.jpg" http://localhost:3000/send-media
-Contribuindo
-Sinta-se à vontade para contribuir com melhorias para este projeto. Abra uma issue para discutir as mudanças que deseja fazer ou envie um pull request diretamente.
+#### Parâmetros
 
-Licença
-Este projeto é licenciado sob a MIT License.
+- `from`: (String) Número do remetente.
+- `caption`: (String) Legenda da mídia.
+- `image`: (File) Arquivo de imagem a ser enviado.
+
+#### Exemplo de Requisição
+
+```bash
+curl -X POST -F "from=SEU_NUMERO" -F "caption=LEGENDA_DA_IMAGEM" -F "image=@caminho/para/imagem.jpg" http://localhost:3000/send-media
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue para relatar problemas ou propor melhorias.
+Segue meu pix: victorgd199@hotmail.com Qualquer valor é bem vindo!
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
