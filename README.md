@@ -51,9 +51,9 @@ curl -X POST -F "from=SEU_NUMERO" -F "caption=LEGENDA_DA_IMAGEM" -F "image=@cami
 
 ### Contribuição
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue para relatar problemas ou propor melhorias.
-Segue meu pix: victorgd199@hotmail.com Qualquer valor é bem vindo!
+**Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue para relatar problemas ou propor melhorias.
+**Segue meu pix: victorgd199@hotmail.com Qualquer valor é bem vindo!
 
 ### Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
+**Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
