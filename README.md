@@ -55,7 +55,7 @@ Contact
 For any questions or inquiries, please contact project@example.com.
 
 References
-Express.js Documentation
+Express.js Documentations
 MySQL2 Documentation
 Winston Documentation
 Node-fetch Documentation
