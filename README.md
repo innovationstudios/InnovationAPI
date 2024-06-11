@@ -1,71 +1,98 @@
-# 🚀 InnovationAPI - Whatsapp Business Oficial
+<h1>🚀 InnovationAPI - WhatsApp Business Oficial</h1>
 
-Este é um projeto API utilizando a lib oficial do WhatsApp Business V18.0, para envio de midia, template e mensagem definidas manualmente!
+<p>Este é um projeto de API utilizando a biblioteca oficial do WhatsApp Business V18.0, para envio de mídia, modelos e mensagens definidas manualmente!</p>
 
-Overview
-This repository contains a Node.js application designed for various purposes, including user authentication, server status monitoring, and message sending via different channels such as WhatsApp.
+<h2>Visão Geral</h2>
 
-Dependencies
-dotenv: Load environment variables from a .env file.
-winston: Logging library for Node.js.
-express: Web framework for Node.js.
-node-fetch: HTTP client for making requests to external APIs.
-multer: Middleware for handling multipart/form-data, primarily used for file uploads.
-fs: File system module for Node.js.
-bcrypt: Library for hashing passwords.
-crypto: Cryptography module for Node.js, used for calculating SHA-256 hashes.
-mysql2: MySQL client for Node.js.
-cors: Middleware for enabling CORS in Express.
-http: HTTP module in Node.js.
-ws: WebSocket library for Node.js.
-systeminformation: Library for retrieving system information.
-jsonwebtoken: Library for generating and verifying JSON Web Tokens (JWT).
-Endpoints
-POST /auth/login: Endpoint for user authentication.
-POST /auth/register: Endpoint for user registration.
-GET /v2/status: Endpoint for retrieving server status.
-POST /v2/send-media: Endpoint for sending messages with media.
-POST /v2/send-message: Endpoint for sending text messages.
-POST /v2/webhook: Endpoint for receiving messages from WhatsApp webhook.
-Main Features
-User Authentication: Allows users to authenticate in the application.
-User Registration: Allows new users to register in the application.
-Server Status Monitoring: Provides information about server status, including CPU, memory, disk, and temperature.
-Message Sending with Media: Allows sending messages with media files, such as images.
-Text Message Sending: Enables sending text messages to phone numbers.
-WhatsApp Webhook: Receives messages sent to a WhatsApp number and processes them.
-Usage and Configuration
-To use the application:
+<p>Este repositório contém uma aplicação Node.js projetada para diversos propósitos, incluindo autenticação de usuário, monitoramento de status do servidor e envio de mensagens por diferentes canais, como WhatsApp.</p>
 
-Install dependencies with npm install.
-Set environment variables in the .env file.
-Run the application with npm start.
-Required environment variables include MySQL database credentials, HTTP server settings, Facebook API URL, Facebook API access token, and other configuration details.
+<h2>Dependências</h2>
 
-Contribution
-Contributions are welcome! Feel free to fork this repository, make your changes, and submit a pull request.
+<ul>
+  <li>dotenv: Carrega variáveis de ambiente de um arquivo .env.</li>
+  <li>winston: Biblioteca de registro para Node.js.</li>
+  <li>express: Framework web para Node.js.</li>
+  <li>node-fetch: Cliente HTTP para fazer requisições para APIs externas.</li>
+  <li>multer: Middleware para lidar com multipart/form-data, principalmente usado para uploads de arquivos.</li>
+  <li>fs: Módulo do sistema de arquivos para Node.js.</li>
+  <li>bcrypt: Biblioteca para gerar hashes de senhas.</li>
+  <li>crypto: Módulo de criptografia para Node.js, usado para calcular hashes SHA-256.</li>
+  <li>mysql2: Cliente MySQL para Node.js.</li>
+  <li>cors: Middleware para habilitar CORS no Express.</li>
+  <li>http: Módulo HTTP no Node.js.</li>
+  <li>ws: Biblioteca WebSocket para Node.js.</li>
+  <li>systeminformation: Biblioteca para obter informações do sistema.</li>
+  <li>jsonwebtoken: Biblioteca para gerar e verificar JSON Web Tokens (JWT).</li>
+</ul>
 
-License
-This project is licensed under the MIT License. Feel free to use and modify this code for your purposes.
+<h2>Endpoints</h2>
 
-Acknowledgements
-Thanks to all the contributors who have helped improve this project.
-Special thanks to the authors of the libraries and dependencies used in this project.
-Contact
-For any questions or inquiries, please contact project@example.com.
+<ul>
+  <li>POST /auth/login: Endpoint para autenticação de usuário.</li>
+  <li>POST /auth/register: Endpoint para registro de usuário.</li>
+  <li>GET /v2/status: Endpoint para obter status do servidor.</li>
+  <li>POST /v2/send-media: Endpoint para enviar mensagens com mídia.</li>
+  <li>POST /v2/send-message: Endpoint para enviar mensagens de texto.</li>
+  <li>POST /v2/webhook: Endpoint para receber mensagens do webhook do WhatsApp.</li>
+</ul>
 
-References
-Express.js Documentations
-MySQL2 Documentation
-Winston Documentation
-Node-fetch Documentation
-Multer Documentation
-Support
-If you find any issues or have suggestions for improvement, please open an issue on GitHub.
+<h2>Principais Recursos</h2>
 
-This README provides an overview of the application, its features, and usage instructions. Feel free to customize it according to your project's needs.
+<ul>
+  <li>Autenticação de Usuário: Permite que os usuários se autentiquem na aplicação.</li>
+  <li>Registro de Usuário: Permite que novos usuários se registrem na aplicação.</li>
+  <li>Monitoramento de Status do Servidor: Fornece informações sobre o status do servidor, incluindo CPU, memória, disco e temperatura.</li>
+  <li>Envio de Mensagens com Mídia: Permite o envio de mensagens com arquivos de mídia, como imagens.</li>
+  <li>Envio de Mensagens de Texto: Permite o envio de mensagens de texto para números de telefone.</li>
+  <li>Webhook do WhatsApp: Recebe mensagens enviadas para um número do WhatsApp e as processa.</li>
+</ul>
 
-### Contribuição
+<h2>Uso e Configuração</h2>
 
-**Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue para relatar problemas ou propor melhorias.
-**Segue meu pix: victorgd199@hotmail.com Qualquer valor é bem vindo!
+<p>Para usar a aplicação:</p>
+
+<ol>
+  <li>Instale as dependências com <code>npm install</code>.</li>
+  <li>Defina as variáveis de ambiente no arquivo <code>.env</code>.</li>
+  <li>Execute a aplicação com <code>npm start</code>.</li>
+</ol>
+
+<p>As variáveis de ambiente necessárias incluem credenciais do banco de dados MySQL, configurações do servidor HTTP, URL da API do Facebook, token de acesso da API do Facebook e outros detalhes de configuração.</p>
+
+<h2>Contribuição</h2>
+
+<p>Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork deste repositório, fazer suas alterações e enviar um pull request.</p>
+
+<h2>Licença</h2>
+
+<p>Este projeto está licenciado sob a Licença MIT. Sinta-se à vontade para usar e modificar este código para seus próprios fins.</p>
+
+<h2>Agradecimentos</h2>
+
+<p>Obrigado a todos os contribuidores que ajudaram a melhorar este projeto.<br>Agradecimentos especiais aos autores das bibliotecas e dependências usadas neste projeto.</p>
+
+<h2>Contato</h2>
+
+<p>Para quaisquer dúvidas ou perguntas, entre em contato com <a href="mailto:project@example.com">project@example.com</a>.</p>
+
+<h2>Referências</h2>
+
+<ul>
+  <li><a href="https://expressjs.com/">Documentação do Express.js</a></li>
+  <li><a href="https://www.npmjs.com/package/mysql2">Documentação do MySQL2</a></li>
+  <li><a href="https://github.com/winstonjs/winston">Documentação do Winston</a></li>
+  <li><a href="https://www.npmjs.com/package/node-fetch">Documentação do Node-fetch</a></li>
+  <li><a href="https://www.npmjs.com/package/multer">Documentação do Multer</a></li>
+</ul>
+
+<h2>Suporte</h2>
+
+<p>Se encontrar algum problema ou tiver sugestões para melhorias, por favor, abra uma issue no GitHub.</p>
+
+<p>Este README fornece uma visão geral da aplicação, seus recursos e instruções de uso. Sinta-se à vontade para personalizá-lo de acordo com as necessidades do seu projeto.</p>
+
+<h3>Contribuição</h3>
+
+<p><strong>Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue para relatar problemas ou propor melhorias.</strong></p>
+
+<p>Segue meu pix: victorgd199@hotmail.com Qualquer valor é bem vindo!</p>
