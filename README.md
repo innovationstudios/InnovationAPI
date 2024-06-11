@@ -73,12 +73,6 @@
   <li><a href="https://www.npmjs.com/package/multer">Documentação do Multer</a></li>
 </ul>
 
-<h2>Suporte</h2>
-
-<p>Se encontrar algum problema ou tiver sugestões para melhorias, por favor, abra uma issue no GitHub.</p>
-
-<p>Este README fornece uma visão geral da aplicação, seus recursos e instruções de uso. Sinta-se à vontade para personalizá-lo de acordo com as necessidades do seu projeto.</p>
-
 <h3>Contribuição</h3>
 
 <p><strong>Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue para relatar problemas ou propor melhorias.</strong></p>
