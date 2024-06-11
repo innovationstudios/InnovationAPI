@@ -59,14 +59,6 @@
 
 <p>As variáveis de ambiente necessárias incluem credenciais do banco de dados MySQL, configurações do servidor HTTP, URL da API do Facebook, token de acesso da API do Facebook e outros detalhes de configuração.</p>
 
-<h2>Contribuição</h2>
-
-<p>Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork deste repositório, fazer suas alterações e enviar um pull request.</p>
-
-<h2>Agradecimentos</h2>
-
-<p>Obrigado a todos os contribuidores que ajudaram a melhorar este projeto.<br>Agradecimentos especiais aos autores das bibliotecas e dependências usadas neste projeto.</p>
-
 <h2>Contato</h2>
 
 <p>Para quaisquer dúvidas ou perguntas, entre em contato com <a href="mailto:project@example.com">suporte@innovationstudios.online</a>.</p>
