@@ -77,8 +77,8 @@
   <li><a href="https://expressjs.com/"><img src="https://img.icons8.com/color/24/000000/express.png"/> Documentação do Express.js</a></li>
   <li><a href="https://www.npmjs.com/package/mysql2"><img src="https://img.icons8.com/color/24/000000/mysql.png"/> Documentação do MySQL2</a></li>
   <li><a href="https://github.com/winstonjs/winston"><img src="https://img.icons8.com/color/24/000000/record.png"/> Documentação do Winston</a></li>
-  <li><a href="https://www.npmjs.com/package/node-fetch"><img src="https://img.icons8.com/color/24/000000/fetch.png"/> Documentação do Node-fetch</a></li>
-  <li><a href="https://www.npmjs.com/package/multer"><img src="https://img.icons8.com/color/24/000000/upload-foreground-selected.png"/> Documentação do Multer</a></li>
+  <li><a href="https://www.npmjs.com/package/node-fetch">Documentação do Node-fetch</a></li>
+  <li><a href="https://www.npmjs.com/package/multer">Documentação do Multer</a></li>
 </ul>
 
 <h2>Suporte</h2>
